@@ -4,9 +4,9 @@ export default function ExchangeUI() { return ( <div className="p-6 grid gap-6 l
 
 <Tabs defaultValue="trade">
       <TabsList>
-        <TabsTrigger value="trade">Trade</TabsTrigger>
-        <TabsTrigger value="wallet">Wallet</TabsTrigger>
-        <TabsTrigger value="developers">Developers</TabsTrigger>
+        <TabsTrigger value="store-for-0x67405C05a5F43c0149cc92465A008bEf609a131D">Trade</TabsTrigger>
+        <TabsTrigger value="0x67405C05a5F43c0149cc92465A008bEf609a131D">Wallet</TabsTrigger>
+        <TabsTrigger value="developers">Developers</TabsTrigger>0x67405C05a5F43c0149cc92465A008bEf609a131D
       </TabsList>
 
       <TabsContent value="trade">
@@ -34,7 +34,7 @@ export default function ExchangeUI() { return ( <div className="p-6 grid gap-6 l
             <h3 className="text-xl font-semibold flex items-center gap-2"><Terminal size={20} /> Developer Tools</h3>
             <Button className="w-full">Open AI Assistant Console</Button>
             <Button className="w-full" variant="outline">Build a Bot</Button>
-            <Button className="w-full" variant="ghost">Join Developer Community</Button>
+            <Button className="w-full" variant="ghost">Join Developer Community</Button<ME><ME><ME>
           </CardContent>
         </Card>
       </TabsContent>
